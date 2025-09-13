@@ -239,15 +239,6 @@ def build_custom_model(neurons, activation, input_shape, output_shape):
 - For large datasets (MNIST, IMDB), consider reducing `batch_size`
 - Monitor GPU usage with `nvidia-smi` during training
 
-## 🤝 Contributing
-
-Contributions are welcome. Please:
-1. Fork the project
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
@@ -257,17 +248,16 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 If you use this code in your research, please cite:
 ```bibtex
 @software{oiou_metrics,
-  title = {OIoU-Metrics: Neural Network Optimization with Dendral Neurons},
-  author = {[Your Name]},
-  year = {2024},
-  url = {https://github.com/your-username/OIoU-Metrics}
+  title = {IoU-Based Overlapping Metric and Aggregated Loss Function for Morphological-Linear Neural Networks},
+  author = {Gerardo Hernández-Hernández},
+  year = {2025},
+  url = {https://github.com/GerardoHH/OIoU_Metrics}
 }
 ```
 
 ## 📧 Contact
 
-For questions and support, please open an issue in the repository or contact [your-email@example.com]
+For questions and support, please open an issue in the repository or contact gerardohernandez.hernandez@gmail.com
 
 ---
 
-**Note**: This project is under active development. Check regularly for updates and new features.
