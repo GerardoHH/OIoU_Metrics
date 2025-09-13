@@ -46,9 +46,6 @@ Gensim (for Word2Vec)
 # Clone repository
 git clone https://github.com/your-username/OIoU-Metrics.git
 cd OIoU-Metrics
-
-# Install dependencies
-pip install tensorflow numpy matplotlib pandas scikit-learn nltk gensim scipy
 ```
 
 ## 📁 Project Structure
