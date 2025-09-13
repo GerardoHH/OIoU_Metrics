@@ -1,6 +1,7 @@
 # IoU-Based Overlapping Metric and Aggregated Loss Function for Morphological-Linear Neural Networks
 
 ## ABSTRACT
+<center>
 This paper proposes two new metrics based on the concept of Intersection over Union (IoU). The first
 one is the Overlapping Intersection over Union (OIoU), which provides an accurate measure of the
 overlap level among morphological neurons with dendritic processing that make up the first layer of
@@ -9,11 +10,12 @@ the size of the first layer of MLNNs. The second metric is the added cost functi
 serves as an additional loss function integrated into the original cost function. Its objective is to minimize
 the overlap allowed between morphological neurons with dendritic processing, thereby enabling effective
 pattern classification and, at the same time, the separation of the hyperboxes in MLNNs.
+</center>
 
 ## 📋 Description
-
+<center> 
 This project implements an innovative neural network architecture utilizing **Dendral Neurons** and the **OIoU (Overlapping Index over Union)** metric for automatic neural architecture optimization. The system significantly reduces the number of parameters while maintaining or improving classification performance.
-
+</center>
 ## 🎯 Key Features
 
 ### Novel Architecture
