@@ -1,7 +1,4 @@
-# OIoU-Metrics: Neural Network Optimization with Dendral Neurons
-
-## Title
-**OIoU-Metrics** - Overlapping Index over Union Metrics for Neural Network Architecture Optimization using Dendral Neurons
+# IoU-Based Overlapping Metric and Aggregated Loss Function for Morphological-Linear Neural Networks
 
 ## Description
 This project implements a novel neural network optimization framework that uses Dendral Neurons and the Overlapping Index over Union (OIoU) metric to automatically reduce network complexity while maintaining classification performance. The system employs two optimization algorithms that progressively reduce the number of neurons based on overlapping measurements between hypercube-based neuron representations, achieving 20-50% parameter reduction with minimal accuracy loss.
@@ -90,11 +87,11 @@ def load_custom_dataset(normalize=False, to_categorical=True):
 ## Requirements
 
 ### Python Version
-- Python 3.7 or higher
+- 
+Python 3.9.18 
 
 ### Dependencies
 ```
-Python 3.9.18 
 Numpy  1.26.0
 Tensor Flow 2.10.1
 Keras 2.10.0
@@ -115,8 +112,6 @@ Gensim (for Word2Vec)
 1. **Initial Training**: Train model with full architecture using standard cross-entropy loss
 2. **OIoU Calculation**: Compute overlapping metric between all neuron pairs
 3. **Reduction Rate Determination**: Calculate reduction percentage based on OIoU value
-   - If OIoU < 5%: Use 75% reduction factor
-   - If OIoU ≥ 5%: Use 25% reduction factor
 4. **Iterative Reduction**: Perform up to 10 iterations:
    - Reduce neurons by calculated percentage
    - Retrain model
@@ -144,10 +139,10 @@ Gensim (for Word2Vec)
 If you use this code in your research, please cite:
 
 ```bibtex
-@software{oiou_metrics_2024,
-  title = {OIoU-Metrics: Neural Network Optimization with Dendral Neurons and Overlapping Metrics},
-  author = {[Author Name]},
-  year = {2024},
+@software{oiou_metrics_2025,
+  title = {IoU-Based Overlapping Metric and Aggregated Loss Function for Morphological-Linear Neural Networks},
+  author = {[Gerardo Hernández-Hernández]},
+  year = {2025},
   url = {https://github.com/your-username/OIoU-Metrics},
   note = {Software available at: https://github.com/your-username/OIoU-Metrics}
 }
