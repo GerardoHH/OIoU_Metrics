@@ -16,8 +16,8 @@ All datasets were processed to have a zero mean distribution and a standard devi
   - Balanced class distribution
 
 ### Real-World Datasets
-- **MNIST**: 60,000 training images, 10,000 test images, 784 features (28x28 pixels), 10 classes      DOI: (10.24432/C53K8Q)
-- **Letter Recognition**: 20,000 samples, 16 numerical features, 26 classes (A-Z)                     DOI: (10.24432/C5ZP40)
+- **MNIST**: 60,000 training images, 10,000 test images, 784 features (28x28 pixels), 10 classes      DOI: [10.24432/C53K8Q](10.24432/C53K8Q)
+- **Letter Recognition**: 20,000 samples, 16 numerical features, 26 classes (A-Z)                     DOI: 10.24432/C5ZP40
 - **IMDB Movie Reviews**: 50,000 reviews for sentiment analysis, Word2Vec embeddings (100 dimensions) URL: (http://ai.stanford.edu/~amaas/data/sentiment/)
 - **Artificial Characters**: Murphy's artificial character dataset with 36 features, 10 character classes DOI: (10.24432/C5303Z)
 
