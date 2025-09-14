@@ -35,8 +35,8 @@ This project implements an innovative neural network architecture utilizing **De
 ```bash
 Python 3.9.18 
 Numpy  1.26.0
-Tensor Flow Version: 2.10.1
-Keras Version: 2.10.0
+Tensor Flow 2.10.1
+Keras 2.10.0
 GPU 
 Eager execution: True 
 NLTK (for text processing)
